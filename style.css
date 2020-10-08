@@ -1,0 +1,46 @@
+body, html{
+  margin: 0px;
+  padding: 0px;
+  background-image: url('NegroSwanAlbumCover.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.albumTitle, .buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1vmin 3vmin 0px 3vmin;
+}
+
+ h3, h1, a{
+   color: white;
+   font-family: 'Archivo Black', sans-serif;
+   letter-spacing: 0.5vmin;
+   text-decoration: none;
+
+ }
+
+ .charchoalBabyLyrics p {
+   font-size: 18px;
+   padding: 2vmin 1vmin 2vmin 2vmin;
+   font-family: 'Frank Ruhl Libre', serif;
+   line-height: 2.5vmin;
+   background-color: white;
+}
+
+ .charchoalBabyLyrics{
+   text-align: center;
+   padding: 0px 60vmin 0px 60vmin;
+ }
+
+.buttons{
+  padding: 0px 20vmin 3.5vmin 20vmin;
+}
+
+a:hover{
+  background-color: white;
+  color: black;
+}
